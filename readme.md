@@ -4,7 +4,7 @@ DEMO : https://pickupsoccer.net/
 
 INSTALLATION GUIDE<br>
 
-Download pickupsoccer project and run the following commands inside "pickupsoccer-master" directory :
+Download pickupsoccer project and run the following commands inside "pickupsoccer-main" directory :
 
 1. Dependencies<br>
   $ sudo apt install openssl php-common php-curl php-json php-mbstring php-mysql php-xml php-zip <br>
