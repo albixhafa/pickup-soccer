@@ -1,55 +1,59 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-<img src="public/images/pickupsoccer1.png" with="50%">
+ABOUT : PICKUP SOCCER is a social network built with Laravel Framework that allows registered users to coordinate pickup games and/or join games organized by other members. By utilizing Google Maps API, members are also able to interact with others within the range of their respective location.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+DEMO : https://pickupsoccer.net/
 
-## About Laravel
+INSTALLATION GUIDE<br>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+Download pickupsoccer project and run the following commands inside "pickupsoccer-master" directory :
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+1. Dependencies<br>
+  $ sudo apt install openssl php-common php-curl php-json php-mbstring php-mysql php-xml php-zip <br>
+  $ composer install <br>
+  $ npm install <br>
+  
+2. Install .env file and generate key<br>
+  $ cp .env.example .env <br>
+  $ php artisan key:generate <br>
+  
+3. Modify .env file<br>
+  DB_DATABASE=pk_soccer<br>
+  DB_USERNAME=laravel<br>
+  DB_PASSWORD=laravelpass<br>
+  
+3. Import DB file<br>
+  $ sudo mysql -u root<br>
+  mysql> CREATE DATABASE pk_soccer;<br>
+  mysql> CREATE USER 'laravel'@'localhost' IDENTIFIED BY 'laravelpass';<br>
+  mysql> GRANT ALL PRIVILEGES ON pk_soccer . * TO 'laravel'@'localhost';<br>
+  mysql> use pk_soccer;<br>
+  mysql> source importdb.sql;<br>
+  mysql> exit;<br>
+  
+4. Run Application<br>
+  $ php artisan serve<br>
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+5. Login to Application<br>
+  127.0.0.1:8000<br>
+  u: pickupsoccer@test.com<br>
+  p: soccer12<br>
+  
+** NOTE - THE APPLICATION WILL REQUIRES A NEW GOOGE PLACES API KEY in :<br>
+  views/item.blade.php<br>
+  views/layouts/app.blade.php<br>
+  views/include/jsprofile.blade.php<br>
+  views/include/jspost.blade.php<br>
+  views/include/jsmainpage.blade.php<br>
+  views/include/jsitem.blade.php<br> 
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
-
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
-
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+<img src="public/images/pickupsoccer1.png">
+<img src="public/images/pickupsoccer2.png">
+<img src="public/images/pickupsoccer3.png">
+<img src="public/images/pickupsoccer4.png">
+<img src="public/images/pickupsoccer5.png">
+<img src="public/images/pickupsoccer6.png">
+<img src="public/images/pickupsoccer7.png">
+<img src="public/images/pickupsoccer8.png">
+<img src="public/images/pickupsoccer9.png">
+<img src="public/images/pickupsoccer10.png">
