@@ -1,5 +1,3 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-
 ABOUT : PICKUP SOCCER is a social network built with Laravel Framework that allows registered users to coordinate pickup games and/or join games organized by other members. By utilizing Google Maps API, members are also able to interact with others within the range of their respective location.
 
 DEMO : https://pickupsoccer.net/
