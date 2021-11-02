@@ -37,7 +37,7 @@ Download pickupsoccer project and run the following commands inside "pickupsocce
   u: pickupsoccer@test.com<br>
   p: soccer12<br>
   
-** NOTE - THE APPLICATION WILL REQUIRES A NEW GOOGE PLACES API KEY in :<br>
+** NOTE - THE APPLICATION WILL REQUIRE A NEW GOOGE PLACES API KEY in :<br>
   views/item.blade.php<br>
   views/layouts/app.blade.php<br>
   views/include/jsprofile.blade.php<br>
