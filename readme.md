@@ -7,10 +7,12 @@ DEMO : https://pickupsoccer.net/
 Download pickupsoccer project and run the following commands inside "pickupsoccer-main" directory :
 
 1. Dependencies
-```  $ sudo apt install openssl php-common php-curl php-json php-mbstring php-mysql php-xml php-zip
+
+```$ sudo apt install openssl php-common php-curl php-json php-mbstring php-mysql php-xml php-zip
   $ composer install
-  $ npm install```
-  
+  $ npm install
+```
+
 2. Install .env file and generate key<br>
   $ cp .env.example .env <br>
   $ php artisan key:generate <br>
