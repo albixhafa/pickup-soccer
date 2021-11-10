@@ -19,10 +19,12 @@ Download pickupsoccer project and run the following commands inside "pickupsocce
   $ php artisan key:generate
 ```
   
-3. Modify .env file<br>
-  DB_DATABASE=pk_soccer<br>
-  DB_USERNAME=laravel<br>
-  DB_PASSWORD=laravelpass<br>
+**3. Modify .env file<br>**
+
+```DB_DATABASE=pk_soccer
+  DB_USERNAME=laravel
+  DB_PASSWORD=laravelpass
+```
   
 3. Import DB file<br>
   $ sudo mysql -u root<br>
