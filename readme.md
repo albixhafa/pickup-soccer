@@ -1,6 +1,6 @@
 **ABOUT :** PICKUP SOCCER (2017) is a social network built with Laravel Framework that allows registered users to coordinate pickup games and/or join games organized by other members. By utilizing Google Maps API, members are also able to interact with others within the range of their respective location.
 
-DEMO : https://pickupsoccer.net/
+**DEMO :** https://pickupsoccer.net/
 
 **INSTALLATION GUIDE<br>**
 
@@ -26,30 +26,38 @@ Download pickupsoccer project and run the following commands inside "pickupsocce
   DB_PASSWORD=laravelpass
 ```
   
-3. Import DB file<br>
-  $ sudo mysql -u root<br>
-  mysql> CREATE DATABASE pk_soccer;<br>
-  mysql> CREATE USER 'laravel'@'localhost' IDENTIFIED BY 'laravelpass';<br>
-  mysql> GRANT ALL PRIVILEGES ON pk_soccer . * TO 'laravel'@'localhost';<br>
-  mysql> use pk_soccer;<br>
-  mysql> source importdb.sql;<br>
-  mysql> exit;<br>
-  
-4. Run Application<br>
-  $ php artisan serve<br>
+**3. Import DB file<br>**
 
-5. Login to Application<br>
-  127.0.0.1:8000<br>
-  u: pickupsoccer@test.com<br>
-  p: soccer12<br>
+```$ sudo mysql -u root
+  mysql> CREATE DATABASE pk_soccer;
+  mysql> CREATE USER 'laravel'@'localhost' IDENTIFIED BY 'laravelpass';
+  mysql> GRANT ALL PRIVILEGES ON pk_soccer . * TO 'laravel'@'localhost';
+  mysql> use pk_soccer;
+  mysql> source importdb.sql;
+  mysql> exit;
+```
   
-** NOTE - THE APPLICATION WILL REQUIRE A NEW GOOGE PLACES API KEY in :<br>
-  views/item.blade.php<br>
-  views/layouts/app.blade.php<br>
-  views/include/jsprofile.blade.php<br>
-  views/include/jspost.blade.php<br>
-  views/include/jsmainpage.blade.php<br>
-  views/include/jsitem.blade.php<br> 
+**4. Run Application<br>**
+
+```  $ php artisan serve
+```
+
+**5. Login to Application<br>**
+
+```127.0.0.1:8000
+  u: pickupsoccer@test.com
+  p: soccer12
+```
+  
+**** NOTE - THE APPLICATION WILL REQUIRE A NEW GOOGE PLACES API KEY in :<br>**
+  
+```views/item.blade.php
+  views/layouts/app.blade.php
+  views/include/jsprofile.blade.php
+  views/include/jspost.blade.php
+  views/include/jsmainpage.blade.php
+  views/include/jsitem.blade.php
+```
 
 <img src="public/images/pickupsoccer1.png">
 <img src="public/images/pickupsoccer2.png">
