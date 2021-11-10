@@ -39,8 +39,7 @@ Download pickupsoccer project and run the following commands inside "pickupsocce
   
 **4. Run Application<br>**
 
-```$ php artisan serve
-```
+```$ php artisan serve ```
 
 **5. Login to Application<br>**
 
