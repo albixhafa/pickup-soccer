@@ -10,8 +10,8 @@ Download pickupsoccer project and run the following commands inside "pickupsocce
 
 ```$ sudo apt install openssl php-common php-curl php-json php-mbstring php-mysql php-xml php-zip
   $ composer install
-  $ npm install
-```
+  $ npm install```
+
 
 **2. Install .env file and generate key<br>**
 
