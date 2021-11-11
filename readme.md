@@ -52,13 +52,24 @@ views/include/jspost.blade.php
 views/include/jsmainpage.blade.php
 views/include/jsitem.blade.php
 ```
+<hr>
 <img src="public/images/pickupsoccer1.png">
+<hr>
 <img src="public/images/pickupsoccer2.png">
+<hr>
 <img src="public/images/pickupsoccer3.png">
+<hr>
 <img src="public/images/pickupsoccer4.png">
+<hr>
 <img src="public/images/pickupsoccer5.png">
+<hr>
 <img src="public/images/pickupsoccer6.png">
+<hr>
 <img src="public/images/pickupsoccer7.png">
+<hr>
 <img src="public/images/pickupsoccer8.png">
+<hr>
 <img src="public/images/pickupsoccer9.png">
+<hr>
 <img src="public/images/pickupsoccer10.png">
+<hr>
