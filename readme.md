@@ -4,7 +4,7 @@
 
 **INSTALLATION GUIDE<br>**
 
-Download pickupsoccer project and run the following commands inside "pickupsoccer-main" directory :
+Download pickupsoccer project and run the following commands inside "pickup-soccer-main" directory :
 
 **1. Dependencies**
 ```
