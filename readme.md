@@ -71,3 +71,13 @@ views/include/jsitem.blade.php
 <hr>
 <img src="public/images/pickupsoccer10.png">
 <hr>
+
+## Django backend
+
+A minimal Django implementation is available in `django_backend`.
+To run it (requires Django installed):
+```bash
+cd django_backend
+python3 manage.py migrate
+python3 manage.py runserver
+```

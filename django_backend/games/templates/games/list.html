@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pickup Games</title>
+</head>
+<body>
+<h1>Pickup Games</h1>
+<ul>
+    {% for game in games %}
+    <li>{{ game.title }} - {{ game.location }} - {{ game.start_time }}</li>
+    {% empty %}
+    <li>No games available</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
